@@ -1,6 +1,6 @@
 (PRINT "Début du programme.")
- ;Prise des données dans le fichier vecteur un espace sépare les dimensions un point virgule termine la prise du vecteur.
-(let ((in (open "vecteur")))
+ ;Prise des données dans le fichier MinkowskiVecteur.data un espace sépare les dimensions un point virgule termine la prise du vecteur.
+(let ((in (open "MinkowskiVecteur.data")))
   (setq v (read-line in))
   (setq w (read-line in))
   (close in)
